@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should create snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="header"
+  >
+    <nav
+      class="navbar"
+    >
+      <ul
+        class="navbar__items"
+      >
+        <li
+          class="navbar__item"
+        >
+          <a
+            aria-current="page"
+            class="navbar__link active"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="navbar__item"
+        >
+          <a
+            class="navbar__link"
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      class="search-container"
+    >
+      <form
+        class="search-form"
+      >
+        <span>
+          🔍
+        </span>
+        <input
+          class="search"
+          placeholder="Search..."
+          value=""
+        />
+      </form>
+    </div>
+  </header>
+</DocumentFragment>
+`;

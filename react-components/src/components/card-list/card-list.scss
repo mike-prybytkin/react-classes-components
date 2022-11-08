@@ -1,0 +1,6 @@
+.cards-wrapper {
+  @include flex(center);
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 3%;
+}

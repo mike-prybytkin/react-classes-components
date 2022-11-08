@@ -1,0 +1,12 @@
+.search-form {
+  border-radius: 5px;
+  background-color: $lightColor;
+  padding: 2px;
+  
+  .search {
+    outline: none;
+    border-radius: 5px;
+    padding: 2px 6px;
+    border: none;
+  }
+}

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page 404 component should create snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="main-container"
+  >
+    <h1>
+      Error 404!
+    </h1>
+    <a
+      class="back-to-home-link"
+      href="/"
+    >
+      Back to home page
+    </a>
+  </div>
+</DocumentFragment>
+`;

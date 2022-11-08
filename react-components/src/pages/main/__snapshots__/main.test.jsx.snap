@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main component should create snapshot 1`] = `
+<DocumentFragment>
+  <h1>
+    Welcome to our store!
+  </h1>
+  <div
+    class="cards-wrapper"
+  >
+    <div
+      class="card"
+    >
+      <h3
+        class="card__title"
+      >
+        Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+      </h3>
+      <img
+        alt="men's clothing"
+        class="card__img"
+        src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+      />
+      <p
+        class="card__rating"
+      >
+        3.9 ★
+      </p>
+      <p
+        class="card__price"
+      >
+        109.95 $
+      </p>
+    </div>
+    <div
+      class="card"
+    >
+      <h3
+        class="card__title"
+      >
+        Mens Casual Premium Slim Fit T-Shirts 
+      </h3>
+      <img
+        alt="men's clothing"
+        class="card__img"
+        src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      />
+      <p
+        class="card__rating"
+      >
+        4.1 ★
+      </p>
+      <p
+        class="card__price"
+      >
+        22.3 $
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

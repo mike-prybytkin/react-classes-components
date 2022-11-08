@@ -1,0 +1,9 @@
+$mainColor: #235a9f;
+$lightColor: #ffffff;
+$backgroundHeaderColor: #092642;
+
+@mixin flex ($justify: center, $align: stretch) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}

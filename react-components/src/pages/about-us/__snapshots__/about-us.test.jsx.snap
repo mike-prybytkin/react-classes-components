@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Us component should create snapshot 1`] = `
+<DocumentFragment>
+  <h1>
+    About Us!
+  </h1>
+  <p
+    class="sorry-message"
+  />
+</DocumentFragment>
+`;

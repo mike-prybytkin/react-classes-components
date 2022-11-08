@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Live Search component should create snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="search-container"
+  >
+    <form
+      class="search-form"
+    >
+      <span>
+        🔍
+      </span>
+      <input
+        class="search"
+        placeholder="Search..."
+        value=""
+      />
+    </form>
+  </div>
+</DocumentFragment>
+`;

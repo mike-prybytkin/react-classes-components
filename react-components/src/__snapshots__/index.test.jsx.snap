@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Application should renders correctly application 1`] = `
+<div
+  className="App"
+  data-testid="app"
+>
+  <header
+    className="header"
+  >
+    <nav
+      className="navbar"
+    >
+      <ul
+        className="navbar__items"
+      >
+        <li
+          className="navbar__item"
+        >
+          <a
+            aria-current="page"
+            className="navbar__link active"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="navbar__item"
+        >
+          <a
+            className="navbar__link"
+            href="/about"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="search-container"
+    >
+      <form
+        className="search-form"
+      >
+        <span>
+          🔍
+        </span>
+        <input
+          className="search"
+          onChange={[Function]}
+          placeholder="Search..."
+          value=""
+        />
+      </form>
+    </div>
+  </header>
+  <main
+    className="main"
+  >
+    <h1>
+      Welcome to our store!
+    </h1>
+    <div
+      className="cards-wrapper"
+    />
+    <p
+      className="main__message_loading"
+    >
+      Loading ...
+    </p>
+  </main>
+</div>
+`;
