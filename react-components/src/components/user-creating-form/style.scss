@@ -1,0 +1,20 @@
+.create-user-form {
+  @include flex(center);
+  gap: 15px;
+  flex-direction: column;
+  background-color: $backgroundCreateUserFormColor;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px $backgroundHeaderColor;
+  width: 252px;
+
+  .create-user-button {
+    outline: none;
+    border-radius: 5px;
+    padding: 2px 6px;
+    border: none;
+    background-color: $buttonColor;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+}

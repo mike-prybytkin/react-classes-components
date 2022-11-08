@@ -1,23 +1,23 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import CardList from './card-list';
-import { mockCards } from '../../mocks/cards';
+import { mockUserCards } from '../../mocks/user-cards';
+import UserCardList from './user-card-list';
 
-const setUp = (props) => render(<CardList cards={props} />);
+const setUp = (props) => render(<UserCardList cards={props} />);
 
-describe('Card list component', () => {
+describe('UserCardList component', () => {
   it('should render card list without data', () => {
     setUp([]);
     expect(screen.queryByRole('heading')).toBeNull();
   });
 
   it('should correctly render headings', () => {
-    setUp(mockCards);
+    setUp(mockUserCards);
     expect(screen.queryAllByRole('heading', { level: 3 })).toMatchSnapshot();
   });
 
   it('create card list snapshot with data', () => {
-    const { asFragment } = setUp(mockCards);
+    const { asFragment } = setUp(mockUserCards);
     expect(asFragment()).toMatchSnapshot();
   });
 });

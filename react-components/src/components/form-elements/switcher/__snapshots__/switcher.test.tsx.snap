@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switcher component should create snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="switcher-wrapper"
+  >
+    <p
+      class="switcher-header"
+    >
+      Gender:
+    </p>
+    <div
+      class="switch-field"
+    >
+      <input
+        checked=""
+        id="radio-male"
+        name="switch-one"
+        type="radio"
+        value="Male"
+      />
+      <label
+        for="radio-male"
+      >
+        Male
+      </label>
+      <input
+        id="radio-female"
+        name="switch-one"
+        type="radio"
+        value="Female"
+      />
+      <label
+        for="radio-female"
+      >
+        Female
+      </label>
+    </div>
+  </div>
+</DocumentFragment>
+`;

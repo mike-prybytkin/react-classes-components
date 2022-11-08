@@ -1,0 +1,62 @@
+.user-card {
+  @include flex(flex-start, center);
+  flex-direction: column;
+  border: 2px solid $backgroundHeaderColor;
+  border-radius: 15px;
+  width: 180px;
+  padding: 10px;
+
+
+  .user-card__avatar {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: solid 3px $buttonColor;
+    border-radius: 60px;
+    display: block;
+  }
+
+  .user-card__name {
+    letter-spacing: 0.2rem;
+    margin: 10px 0;
+  }
+
+  .user-card__gender {
+    margin: 0 4px;
+  }
+
+  .user-card__birthday {
+    margin: 4px;
+  }
+
+  .user-card__salary {
+    margin: 4px;
+  }
+
+  .user-card__mailing {
+    margin: 4px;
+    padding: 2px;
+    background-color: $backgroundHeaderColor;
+    border-radius: 6px;
+    text-align: center;
+
+    &.user-card__mailing_yes {
+      span {
+        color: green;
+        font-weight: bold;
+      }
+    }
+
+    &.user-card__mailing_no {
+      span {
+        color: red;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .item-name {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.12rem;
+  }
+}

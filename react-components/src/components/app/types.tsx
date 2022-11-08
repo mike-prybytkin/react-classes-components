@@ -1,8 +1,8 @@
-import { ICard } from 'share/types';
+import { IProductCard } from 'share/types';
 
-export interface IAppState {
-  data: ICard[];
+export interface AppState {
+  data: IProductCard[];
   isLoading: boolean;
-  currentData: ICard[];
+  currentData: IProductCard[];
   fetchError: unknown;
 }

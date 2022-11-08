@@ -37,6 +37,17 @@ exports[`Testing Application should renders correctly application 1`] = `
             About
           </a>
         </li>
+        <li
+          className="navbar__item"
+        >
+          <a
+            className="navbar__link"
+            href="/form"
+            onClick={[Function]}
+          >
+            Form
+          </a>
+        </li>
       </ul>
     </nav>
     <div

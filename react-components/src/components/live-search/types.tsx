@@ -1,11 +1,11 @@
-import { ICard } from 'share/types';
+import { IProductCard } from 'share/types';
 
-export interface ILiveSearchState {
+export interface LiveSearchState {
   value: string;
 }
 
-export interface ILiveSearchProps {
-  cards: ICard[];
-  onSearch: (cards: ICard[]) => void;
+export interface LiveSearchProps {
+  cards: IProductCard[];
+  onSearch: (cards: IProductCard[]) => void;
   placeholderText: string;
 }

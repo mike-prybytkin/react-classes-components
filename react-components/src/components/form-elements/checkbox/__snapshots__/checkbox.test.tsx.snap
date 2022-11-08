@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox component should create snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="checkbox"
+  >
+    <input
+      checked=""
+      class="checkbox__input"
+      id="checkbox_mailing"
+      type="checkbox"
+    />
+    <label
+      class="checkbox__label"
+      for="checkbox_mailing"
+    >
+      Receive mailing
+    </label>
+  </div>
+</DocumentFragment>
+`;

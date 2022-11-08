@@ -1,0 +1,5 @@
+.user-cards-wrapper {
+  @include flex(flex-start, center);
+  gap: 20px;
+  flex-wrap: wrap;
+}

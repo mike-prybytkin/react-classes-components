@@ -1,0 +1,15 @@
+.form-wrapper {
+  .form-content-header{
+    text-align: center
+  }
+
+  .form-content-wrapper {
+    width: 94vw;
+    @include flex(flex-start, flex-start);
+    gap: 40px;
+
+    .form-content-message {
+      font-size: 1.2rem;
+    }
+  }
+}

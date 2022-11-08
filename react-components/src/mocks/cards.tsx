@@ -1,6 +1,6 @@
-import { ICard } from '../share/types';
+import { IProductCard } from '../share/types';
 
-export const mockCards: ICard[] = [
+export const mockCards: IProductCard[] = [
   {
     id: 1,
     title: 'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops',

@@ -1,3 +1,3 @@
-import { ICard } from 'share/types';
+import { IProductCard } from 'share/types';
 
-export type MainProps = { cards: ICard[]; heading: string };
+export type MainProps = { cards: IProductCard[]; heading: string };

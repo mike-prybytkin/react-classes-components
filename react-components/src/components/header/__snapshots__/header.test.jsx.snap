@@ -32,6 +32,16 @@ exports[`Header component should create snapshot 1`] = `
             About
           </a>
         </li>
+        <li
+          class="navbar__item"
+        >
+          <a
+            class="navbar__link"
+            href="/form"
+          >
+            Form
+          </a>
+        </li>
       </ul>
     </nav>
     <div

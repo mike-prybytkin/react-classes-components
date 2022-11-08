@@ -4,11 +4,12 @@ import AboutUs from 'pages/about-us/about-us';
 import Page404 from 'pages/404/404';
 import Main from 'pages/main/main';
 import Header from 'components/header/header';
-import { ICard } from 'share/types';
-import { IAppState } from './types';
+import { IProductCard } from 'share/types';
+import { AppState } from './types';
 import mockText from 'mocks/text';
+import Form from 'pages/form/form';
 
-class App extends React.Component<unknown, IAppState> {
+class App extends React.Component<unknown, AppState> {
   constructor(props: unknown) {
     super(props);
     this.state = {
@@ -25,7 +26,7 @@ class App extends React.Component<unknown, IAppState> {
     this.setState({ isLoading: true });
     try {
       const response = await fetch(URL);
-      const cards: ICard[] = await response.json();
+      const cards: IProductCard[] = await response.json();
       this.setState({
         data: cards,
         isLoading: false,
@@ -41,13 +42,14 @@ class App extends React.Component<unknown, IAppState> {
     this.fetchCards();
   }
 
-  onSearch(cards: ICard[]) {
+  onSearch(cards: IProductCard[]) {
     this.setState({
       currentData: cards,
     });
   }
 
   render() {
+    const { isLoading } = this.state;
     return (
       <div className="App" data-testid="app">
         <Header cards={this.state.data} onSearch={this.onSearch} />
@@ -64,6 +66,15 @@ class App extends React.Component<unknown, IAppState> {
               }
             />
             <Route
+              path="/form"
+              element={
+                <Form
+                  heading={mockText.headingForm}
+                  noCreatedUserMessage={mockText.notCreatedUserInForm}
+                />
+              }
+            />
+            <Route
               path="/notFound"
               element={
                 <Page404
@@ -74,7 +85,8 @@ class App extends React.Component<unknown, IAppState> {
             />
             <Route path="/*" element={<Navigate to="/notFound" />} />
           </Routes>
-          {this.state.isLoading && <p className="main__message_loading">{mockText.loading}</p>}
+          {isLoading && <p className="main__message_loading">{mockText.loading}</p>}
+          {/* Следующий компонент в третьей таске я выношу в отрисовку карточек. Трогать не буду */}
           {this.state.currentData.length === 0 && !this.state.isLoading && (
             <p className="main__message_not-found">{mockText.itemNotFound}</p>
           )}

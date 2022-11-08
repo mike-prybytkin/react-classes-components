@@ -1,4 +1,4 @@
-export interface ICard {
+export interface IProductCard {
   id: number;
   title: string;
   price: number;
@@ -9,4 +9,13 @@ export interface ICard {
     rate: number;
     count: number;
   };
+}
+
+export interface IUserCard {
+  name: string;
+  birthday: string;
+  salary: string;
+  gender: string;
+  mailing: boolean;
+  avatarPath: string;
 }

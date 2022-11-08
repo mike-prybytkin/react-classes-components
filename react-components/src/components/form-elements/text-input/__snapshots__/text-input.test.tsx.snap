@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput component should create snapshot 1`] = `
+<DocumentFragment>
+  <label
+    class="user-name__label"
+  >
+    Name:
+    <input
+      class="user-name__input"
+      maxlength="12"
+      minlength="2"
+      placeholder="Your Name"
+      required=""
+      type="text"
+    />
+  </label>
+</DocumentFragment>
+`;

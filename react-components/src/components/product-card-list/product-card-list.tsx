@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Card from 'components/card/card';
+import ProductCard from 'components/product-card/product-card';
 import { CardListProps } from './types';
 
-export class CardList extends Component<CardListProps> {
+export class ProductCardList extends Component<CardListProps> {
   constructor(props: CardListProps) {
     super(props);
   }
 
   renderCards() {
-    return this.props.cards.map((card) => <Card key={card.id} {...card} />);
+    return this.props.cards.map((card) => <ProductCard card={card} key={card.id} />);
   }
 
   render() {
@@ -16,4 +16,4 @@ export class CardList extends Component<CardListProps> {
   }
 }
 
-export default CardList;
+export default ProductCardList;

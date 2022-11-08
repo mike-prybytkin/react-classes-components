@@ -1,5 +1,5 @@
 import React from 'react';
-import CardList from 'components/card-list/card-list';
+import CardList from 'components/product-card-list/product-card-list';
 import { MainProps } from './types';
 
 class Main extends React.Component<MainProps> {

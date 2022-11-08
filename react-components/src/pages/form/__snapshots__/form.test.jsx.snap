@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Form component should create snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="form-wrapper"
+  >
+    <h1
+      class="form-content-header"
+    >
+      Create User!
+    </h1>
+    <div
+      class="form-content-wrapper"
+    >
+      <form
+        class="create-user-form"
+      >
+        <label
+          class="user-name__label"
+        >
+          Name:
+          <input
+            class="user-name__input"
+            maxlength="12"
+            minlength="2"
+            placeholder="Your Name"
+            required=""
+            type="text"
+          />
+        </label>
+        <label
+          class="user-birthday__label"
+        >
+          Birthday:
+          <input
+            class="user-birthday__input"
+            max="2022-01-01"
+            min="1922-01-01"
+            type="date"
+            value="2000-01-01"
+          />
+        </label>
+        <label
+          class="salary-label"
+        >
+          Your monthly income:
+          <select
+            class="salary-select"
+          >
+            <option
+              disabled=""
+            >
+              Please choose an option
+            </option>
+            <option
+              value="less than 100$"
+            >
+              less than 100$
+            </option>
+            <option
+              value="100-199$"
+            >
+              100-199$
+            </option>
+            <option
+              value="200-299$"
+            >
+              200-299$
+            </option>
+            <option
+              value="300-399$"
+            >
+              300-399$
+            </option>
+            <option
+              value="400-499$"
+            >
+              400-499$
+            </option>
+            <option
+              value="over 500$"
+            >
+              over 500$
+            </option>
+          </select>
+        </label>
+        <div
+          class="switcher-wrapper"
+        >
+          <p
+            class="switcher-header"
+          >
+            Gender:
+          </p>
+          <div
+            class="switch-field"
+          >
+            <input
+              checked=""
+              id="radio-male"
+              name="switch-one"
+              type="radio"
+              value="Male"
+            />
+            <label
+              for="radio-male"
+            >
+              Male
+            </label>
+            <input
+              id="radio-female"
+              name="switch-one"
+              type="radio"
+              value="Female"
+            />
+            <label
+              for="radio-female"
+            >
+              Female
+            </label>
+          </div>
+        </div>
+        <div
+          class="checkbox"
+        >
+          <input
+            checked=""
+            class="checkbox__input"
+            id="checkbox_mailing"
+            type="checkbox"
+          />
+          <label
+            class="checkbox__label"
+            for="checkbox_mailing"
+          >
+            Receive mailing
+          </label>
+        </div>
+        <label
+          class="avatar-label"
+        >
+          <input
+            accept="image/*"
+            class="avatar-input"
+            id="user-avatar"
+            name="user-avatar"
+            type="file"
+          />
+          Add your photo
+        </label>
+        <input
+          class="create-user-button"
+          type="submit"
+          value="Create user"
+        />
+      </form>
+      <p
+        class="form-content-message"
+      >
+        Sorry, no users have been created yet...
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

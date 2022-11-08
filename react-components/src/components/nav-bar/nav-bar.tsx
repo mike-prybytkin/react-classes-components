@@ -16,6 +16,11 @@ class NavBar extends React.Component {
               About
             </NavLink>
           </li>
+          <li className="navbar__item">
+            <NavLink className="navbar__link" to="/form">
+              Form
+            </NavLink>
+          </li>
         </ul>
       </nav>
     );

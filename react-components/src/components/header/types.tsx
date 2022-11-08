@@ -1,6 +1,6 @@
-import { ICard } from 'share/types';
+import { IProductCard } from 'share/types';
 
 export type HeaderProps = {
-  cards: ICard[];
-  onSearch: (cards: ICard[]) => void;
+  cards: IProductCard[];
+  onSearch: (cards: IProductCard[]) => void;
 };
