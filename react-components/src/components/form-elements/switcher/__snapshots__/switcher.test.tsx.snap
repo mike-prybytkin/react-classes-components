@@ -6,33 +6,33 @@ exports[`Switcher component should create snapshot 1`] = `
     class="switcher-wrapper"
   >
     <p
-      class="switcher-header"
+      class="switcher-wrapper__header"
     >
       Gender:
     </p>
     <div
-      class="switch-field"
+      class="switcher-wrapper__field"
     >
       <input
         checked=""
-        id="radio-male"
+        id="one"
         name="switch-one"
         type="radio"
         value="Male"
       />
       <label
-        for="radio-male"
+        for="one"
       >
         Male
       </label>
       <input
-        id="radio-female"
+        id="two"
         name="switch-one"
         type="radio"
         value="Female"
       />
       <label
-        for="radio-female"
+        for="two"
       >
         Female
       </label>

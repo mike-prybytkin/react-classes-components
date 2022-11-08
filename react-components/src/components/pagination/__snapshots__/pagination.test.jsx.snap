@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination component create pagination snapshot with buttons 1`] = `
+<DocumentFragment>
+  <div
+    class="pagination-wrapper"
+  >
+    <button
+      class="pagination-prev-button"
+      disabled=""
+    >
+      prev
+    </button>
+    <div
+      class="numerical-buttons-wrapper"
+    >
+      <button
+        class="numerical-button active"
+      >
+        1
+      </button>
+      <button
+        class="numerical-button"
+      >
+        2
+      </button>
+      <button
+        class="numerical-button"
+      >
+        3
+      </button>
+      <button
+        class="numerical-button"
+      >
+        4
+      </button>
+      <button
+        class="numerical-button"
+      >
+        5
+      </button>
+    </div>
+    <button
+      class="pagination-next-button"
+    >
+      next
+    </button>
+  </div>
+</DocumentFragment>
+`;

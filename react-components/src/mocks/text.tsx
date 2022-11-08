@@ -6,7 +6,7 @@ const mockText = {
   linkBackToHome: 'Back to home page',
   heading404: 'Error 404!',
   headingAboutUs: 'About Us!',
-  headingMain: 'Welcome to our store!',
+  headingMain: 'Welcome to us!',
   pageNotReady: 'Sorry, page not ready yet...',
   loading: 'Loading ...',
   itemNotFound: 'Sorry, item not found...',
@@ -22,6 +22,16 @@ const mockText = {
   labelUserMailing: 'Receive mailing',
   labelFileUpload: 'Add your photo',
   createUserButton: 'Create user',
+  productCardButton: 'Learn more',
+  prevButton: 'prev',
+  nextButton: 'next',
+  userSex: 'sex:',
+  userBDay: 'b-day:',
+  userSalary: 'salary:',
+  subscribed: 'Subscribed',
+  unsubscribed: 'Unsubscribed',
+  toMailings: 'to mailings!',
+  fromMailings: 'from mailings...',
 };
 
 export default mockText;

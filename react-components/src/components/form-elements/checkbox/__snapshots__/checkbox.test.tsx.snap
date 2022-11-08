@@ -8,12 +8,12 @@ exports[`Checkbox component should create snapshot 1`] = `
     <input
       checked=""
       class="checkbox__input"
-      id="checkbox_mailing"
+      id="test"
       type="checkbox"
     />
     <label
       class="checkbox__label"
-      for="checkbox_mailing"
+      for="test"
     >
       Receive mailing
     </label>

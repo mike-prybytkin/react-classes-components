@@ -12,7 +12,7 @@ const setUp = () => {
 describe('FileUpload component', () => {
   it('should correctly render date input with a className', () => {
     const { container } = setUp();
-    expect(container.getElementsByClassName('avatar-label').length).toBe(1);
+    expect(container.getElementsByClassName('file-upload').length).toBe(1);
   });
 
   it('should create snapshot', () => {

@@ -72,11 +72,13 @@ exports[`Testing Application should renders correctly application 1`] = `
     className="main"
   >
     <h1>
-      Welcome to our store!
+      Welcome to us!
     </h1>
-    <div
-      className="cards-wrapper"
-    />
+    <p
+      className="not-found-items-message"
+    >
+      Sorry, item not found...
+    </p>
     <p
       className="main__message_loading"
     >

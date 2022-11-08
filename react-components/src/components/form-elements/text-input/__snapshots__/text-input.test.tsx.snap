@@ -2,18 +2,23 @@
 
 exports[`TextInput component should create snapshot 1`] = `
 <DocumentFragment>
-  <label
-    class="user-name__label"
+  <div
+    class="text-input"
   >
-    Name:
-    <input
-      class="user-name__input"
-      maxlength="12"
-      minlength="2"
-      placeholder="Your Name"
-      required=""
-      type="text"
-    />
-  </label>
+    <label
+      class="text-input__label"
+    >
+      Name:
+      <input
+        class="text-input__input"
+        id="test"
+        maxlength="12"
+        minlength="2"
+        placeholder="Your Name"
+        required=""
+        type="text"
+      />
+    </label>
+  </div>
 </DocumentFragment>
 `;

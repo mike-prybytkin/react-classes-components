@@ -4,9 +4,22 @@ $backgroundHeaderColor: #092642;
 $backgroundCreateUserFormColor: #174276;
 $buttonColor: #80b9ee;
 $shadowColor: #559ce4;
+$backgroundColorModalOverlay: #00000080;
+$backgroundModalWindowColor: #add8ff;
+$darkColor: #000000;
 
 @mixin flex ($justify: center, $align: stretch) {
   display: flex;
   justify-content: $justify;
   align-items: $align;
+}
+
+%button{
+  background-color:  $buttonColor;
+  border: 2px solid $backgroundHeaderColor;
+  transition: all 0.3s;
+  
+  &:hover {
+    border: 2px solid $lightColor;
+  }
 }

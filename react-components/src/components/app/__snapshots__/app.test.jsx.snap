@@ -69,11 +69,13 @@ exports[`App should create snapshot 1`] = `
       class="main"
     >
       <h1>
-        Welcome to our store!
+        Welcome to us!
       </h1>
-      <div
-        class="cards-wrapper"
-      />
+      <p
+        class="not-found-items-message"
+      >
+        Sorry, item not found...
+      </p>
       <p
         class="main__message_loading"
       >

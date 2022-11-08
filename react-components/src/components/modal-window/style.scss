@@ -1,0 +1,36 @@
+.modal-overlay {
+  position: fixed;
+  background: $backgroundColorModalOverlay;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  .modal-window {
+    background: $backgroundModalWindowColor;
+    max-width: 40vw;
+    min-height: 38vh;
+    color: $darkColor;
+    position: relative;
+    top: calc((100vh - 38vh) / 2);
+    left: calc((100vw - 40vw) / 2);
+    border-radius: 15px;
+  }
+
+  .modal-window__close {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.6rem;
+    background-color: $buttonColor;
+    border: 2px solid $backgroundHeaderColor;
+    transition: all 0.3s;
+
+    &:hover {
+      border: 2px solid $lightColor;
+    }
+  }
+}

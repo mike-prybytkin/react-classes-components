@@ -2,15 +2,20 @@
 
 exports[`DateInput component should create snapshot 1`] = `
 <DocumentFragment>
-  <label
-    class="user-birthday__label"
+  <div
+    class="date-input"
   >
-    Birthday:
-    <input
-      class="user-birthday__input"
-      type="date"
-      value="2000-01-01"
-    />
-  </label>
+    <label
+      class="date-input__label"
+    >
+      Birthday:
+      <input
+        class="date-input__input"
+        id="test"
+        type="date"
+        value="2000-01-01"
+      />
+    </label>
+  </div>
 </DocumentFragment>
 `;

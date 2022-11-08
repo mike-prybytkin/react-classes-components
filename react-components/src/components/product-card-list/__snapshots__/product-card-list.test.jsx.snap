@@ -8,50 +8,40 @@ exports[`Card list component create card list snapshot with data 1`] = `
     <div
       class="card"
     >
+      <img
+        alt="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+        class="card__img"
+        src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+      />
       <h3
         class="card__title"
       >
-        Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+        Rick Sanchez
       </h3>
-      <img
-        alt="men's clothing"
-        class="card__img"
-        src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
-      />
-      <p
-        class="card__rating"
+      <button
+        class="card__button"
       >
-        3.9 ★
-      </p>
-      <p
-        class="card__price"
-      >
-        109.95 $
-      </p>
+        Learn more
+      </button>
     </div>
     <div
       class="card"
     >
+      <img
+        alt="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+        class="card__img"
+        src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+      />
       <h3
         class="card__title"
       >
-        Mens Casual Premium Slim Fit T-Shirts 
+        Morty Smith
       </h3>
-      <img
-        alt="men's clothing"
-        class="card__img"
-        src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
-      />
-      <p
-        class="card__rating"
+      <button
+        class="card__button"
       >
-        4.1 ★
-      </p>
-      <p
-        class="card__price"
-      >
-        22.3 $
-      </p>
+        Learn more
+      </button>
     </div>
   </div>
 </DocumentFragment>
@@ -62,12 +52,12 @@ Array [
   <h3
     class="card__title"
   >
-    Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+    Rick Sanchez
   </h3>,
   <h3
     class="card__title"
   >
-    Mens Casual Premium Slim Fit T-Shirts 
+    Morty Smith
   </h3>,
 ]
 `;

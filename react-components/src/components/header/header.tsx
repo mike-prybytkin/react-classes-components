@@ -13,11 +13,7 @@ class Header extends React.Component<HeaderProps> {
     return (
       <header className="header">
         <NavBar />
-        <LiveSearch
-          cards={this.props.cards}
-          onSearch={this.props.onSearch}
-          placeholderText={mockText.searchPlaceholder}
-        />
+        <LiveSearch onSearch={this.props.onSearch} placeholderText={mockText.searchPlaceholder} />
       </header>
     );
   }

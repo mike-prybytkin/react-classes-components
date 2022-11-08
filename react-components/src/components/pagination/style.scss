@@ -1,0 +1,28 @@
+.pagination-wrapper {
+  padding: 20px 0;
+  @include flex(center);
+  width: 50vw;
+  gap: 2px;
+
+  .numerical-buttons-wrapper {
+    @include flex(center);
+    flex-wrap: wrap;
+    gap: 2px;
+
+    .numerical-button {
+      @extend %button;
+      border-radius: 4px;
+      width: 30px;
+
+      &.active {
+        background-color: $lightColor;
+      }
+    }
+  }
+
+  .pagination-prev-button,
+  .pagination-next-button {
+    @extend %button;
+    border-radius: 4px;
+  }
+}

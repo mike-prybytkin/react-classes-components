@@ -1,5 +1,4 @@
 import React from 'react';
-import { IProductCard } from 'share/types';
 import { LiveSearchState } from './types';
 import { LiveSearchProps } from './types';
 
@@ -17,12 +16,6 @@ class LiveSearch extends React.Component<LiveSearchProps, LiveSearchState> {
     }
   };
 
-  handleFilterCards(filterValue: string) {
-    return this.props.cards.filter((item: IProductCard) => {
-      return item.title.toLowerCase().includes(filterValue.toLowerCase().trim());
-    });
-  }
-
   setLocalStorage(searchFieldText: string) {
     localStorage.setItem('searchValue', searchFieldText);
   }
@@ -37,12 +30,8 @@ class LiveSearch extends React.Component<LiveSearchProps, LiveSearchState> {
     prevProps: Readonly<LiveSearchProps>,
     prevState: Readonly<LiveSearchState>
   ): void {
-    if (prevProps.cards !== this.props.cards) {
-      this.props.onSearch(this.handleFilterCards(this.state.value));
-    }
-
     if (prevState.value !== this.state.value) {
-      this.props.onSearch(this.handleFilterCards(this.state.value));
+      this.props.onSearch(this.state.value);
       this.setLocalStorage(this.state.value);
     }
   }

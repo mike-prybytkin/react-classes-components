@@ -1,22 +1,52 @@
 .card {
-  width: 200px;
+  width: 160px;
   border: 2px solid $backgroundHeaderColor;
   text-align: center;
   border-radius: 15px;
 
+  .card__img {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+  }
+
   .card__title {
     font-size: 1.1rem;
-    height: 70px;
-    padding: 4px;
+    height: 55px;
+    padding: 0px;
+    margin: 5px;;
   }
 
-  .card__img {
-    width: 90%;
-    height: 210px;
-    border-radius: 10px;
+  .card__button {
+    @extend %button;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    letter-spacing: 0.2rem;
+    padding: 4px 8px;
+  }
+}
+
+.modal-body-wrapper {
+  @include flex(flex-start, center);
+  gap: 15px;
+
+  .modal-cart-picture {
+    border-radius: 15px 0 0 15px;
   }
 
-  .card__price {
-    font-weight: 700;
+  .modal-cart-items {
+    .modal-cart-items__name {
+      letter-spacing: 0.2rem;
+      font-size: 1.2rem;
+    }
+
+    .modal-cart-items__status,
+    .modal-cart-items__species,
+    .modal-cart-items__type,
+    .modal-cart-items__gender,
+    .modal-cart-items__location {
+      span {
+        font-weight: 600;
+      }
+    }
   }
 }

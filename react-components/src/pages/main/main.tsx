@@ -10,7 +10,13 @@ class Main extends React.Component<MainProps> {
     return (
       <React.Fragment>
         <h1>{this.props.heading}</h1>
-        <CardList cards={this.props.cards} />
+        <CardList
+          cards={this.props.cards}
+          queryPage={this.props.queryPage}
+          allPages={this.props.allPages}
+          cardsLimit={this.props.cardsLimit}
+          updateQuery={this.props.updateQuery}
+        />
       </React.Fragment>
     );
   }

@@ -2,17 +2,21 @@
 
 exports[`FileUpload component should create snapshot 1`] = `
 <DocumentFragment>
-  <label
-    class="avatar-label"
+  <div
+    class="file-upload"
   >
-    <input
-      accept="image/*"
-      class="avatar-input"
-      id="user-avatar"
-      name="user-avatar"
-      type="file"
-    />
-    Add your photo
-  </label>
+    <label
+      class="file-upload__label"
+    >
+      <input
+        accept="image/*"
+        class="file-upload__input"
+        id="test"
+        name="test"
+        type="file"
+      />
+      Add your photo
+    </label>
+  </div>
 </DocumentFragment>
 `;

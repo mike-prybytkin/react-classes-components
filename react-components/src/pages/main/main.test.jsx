@@ -5,8 +5,11 @@ import Main from './main';
 import { mockCards } from '../../mocks/cards';
 import mockText from '../../mocks/text';
 
+const mockCallback = jest.fn();
 const setUp = () =>
-  render(<Main cards={mockCards} heading={mockText.headingMain} />, { wrapper: BrowserRouter });
+  render(<Main cards={mockCards} heading={mockText.headingMain} updateQuery={mockCallback} />, {
+    wrapper: BrowserRouter,
+  });
 
 describe('Main component', () => {
   it('should correctly render heading', () => {
